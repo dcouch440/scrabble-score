@@ -16,7 +16,7 @@ class Scrabble
     ]
     chars_array.each_with_index do |chars, i|
       chars.each do |char|
-        @word.upcase().each_char do |word_char| 
+        @word.upcase.each_char do |word_char| 
           if char == word_char
             counter += values[i]
           end

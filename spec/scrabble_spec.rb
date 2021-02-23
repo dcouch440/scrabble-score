@@ -35,13 +35,21 @@ describe(Scrabble) do
       letters = Scrabble.new('qz')
       expect(letters.scrabble()).to(eq(20))
     end
-    # it("returns a scrabble score of 2 for the letters 'dg', and a score of 1 for letters 'aeioulnrst'") do
-    #   word = Scrabble.new('dog')
-    #   expect(word.scrabble()).to(eq(5))
-    # end
-    # it("returns a scrabble score of 3 for the letters B, C, M, P") do
-    #   word = Scrabble.new('bootcamp')
-    #   expect(word.scrabble()).to(eq(13))
-    # end
+    it("returns a scrabble score of 2 for the letters 'dg', and a score of 1 for letters 'aeioulnrst'") do
+      word = Scrabble.new('dog')
+      expect(word.scrabble()).to(eq(5))
+    end
+    it("returns a scrabble score of 3 for the letters B, C, M, P") do
+      word = Scrabble.new('bootcamp')
+      expect(word.scrabble()).to(eq(16))
+    end
+    it("returns a scrabble score from each value") do
+      word = Scrabble.new('adbfkjq')
+      expect(word.scrabble()).to(eq(33))
+    end
+    it("returns a scrabble score regardless of case") do
+      word = Scrabble.new('AdBfKjQ')
+      expect(word.scrabble()).to(eq(33))
+    end
   end
 end
