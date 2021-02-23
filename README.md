@@ -1,7 +1,7 @@
-# {Project Name}
-#### *Co-Created By:*
-#### *Co-Created By:*
-#### *{Brief Project Description}*
+# Scrabble Score
+#### *Co-Created By: David Couch*
+#### *Co-Created By: Jo Miller*
+#### *Adds scrabble scores for word*
 <!-- Check list
 - Project Name
 - Author
@@ -16,31 +16,32 @@
 * * *
 
 ## Description  
-{project description}
-
+## Description
+This is an application for learning TDD with ruby while attending Epicodus coding school. This app Might be un finished and does not represent my class mates or my own coding knowledge.
 * * *
-## Specs
 
+## Technologies used
+* Ruby
+* Rspec
 
 * * *
 
 ## Technologies used
 * Ruby
-
+* Rspec
 * * *
 
 
 ## Installation : 
 ### Want to see this webpage now?
-###### See this web page in action on [Github Pages]({repo})
 
-* Go to ( {project repo} ).
 
-*  Navigate to the code button on the github website.\
-![Code button](/img/README/code.PNG)
+* Go to ( https://github.com/dcouch440/scrabble-score ).
 
-* Click on the code button to open the menu.\
-![Github Repo Example](/img/README/HTTPS.png)
+*  Navigate to the code button on the github website.
+
+* Click on the code button to open the menu.
+
 
 - Copy the HTTPS code by clicking the clipboard next to the link.
 
@@ -51,7 +52,7 @@
 
 - Once you have chosen your desired directory use the command.
 ```bash 
-git clone {git repo}
+git clone https://github.com/dcouch440/scrabble-score.git
 ```
 
 <div 
@@ -90,15 +91,29 @@ git clone {git repo}
 code .
 ```
 
+* Then type
+
+``` bash
+gem install bundler
+```
+* then type
+
+``` bash
+bundle install
+```
+* Then from the terminal you can run logical code through the terminal by typing
+```bash
+ruby "file goes here (no quotes)"
+```
 
 ## Addition comments:
-* Created on x/xx/21
+* Created on 2/23/21
 
 
 * * *
 
 ## License:
-> *&copy; David Couch, 2021*
+> *&copy; David Couch, Jo Miller 2021*
 
 Licensed under [MIT license](https://mit-license.org/)
 
@@ -106,3 +121,19 @@ Licensed under [MIT license](https://mit-license.org/)
 
 ## Contact Information
 _David Couch: [Email](dcouch440@gmail.com)_
+_Jo Miller: [Email](joannadawnmiller@gmail.com)_## Addition comments:
+* Created on 2/23/21
+
+
+* * *
+
+## License:
+> *&copy; David Couch, Jo Miller 2021*
+
+Licensed under [MIT license](https://mit-license.org/)
+
+* * *
+
+## Contact Information
+_David Couch: [Email](dcouch440@gmail.com)_
+_Jo Miller: [Email](joannadawnmiller@gmail.com)_
