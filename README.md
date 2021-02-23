@@ -2,18 +2,7 @@
 #### *Co-Created By: David Couch*
 #### *Co-Created By: Jo Miller*
 #### *Adds scrabble scores for word*
-<!-- Check list
-- Project Name
-- Author
-- Brief Description
-- Description
-- Specs
-- Link in gh-pages
-- Project repo
-- git clone repo link
-- date
- -->
-* * *
+* * * 
 
 ## Description  
 ## Description
