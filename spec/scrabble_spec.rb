@@ -29,7 +29,7 @@ describe(Scrabble) do
     end
     it("returns a scrabble score of 8 for the letters 'jx'") do
       letters = Scrabble.new('jx')
-      expect(letters.scrabble()).to(eq(5))
+      expect(letters.scrabble()).to(eq(16))
     end
     it("returns a scrabble score of 10 for the letters 'qz'") do
       letters = Scrabble.new('qz')
