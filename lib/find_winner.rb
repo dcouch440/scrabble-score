@@ -11,5 +11,3 @@ class FindWinner
     "#{name} is the winner with a score of #{score}"
   end
 end
-
-puts FindWinner.get_max('documents/player_1.txt', 'documents/player_2.txt')

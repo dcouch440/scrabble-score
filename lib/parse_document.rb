@@ -12,5 +12,3 @@ class ParseDocument
     Scrabble.get_score(@document)
   end
 end
-
-# puts ParseDocument.new('documents/player_1.txt').scrabble_score
